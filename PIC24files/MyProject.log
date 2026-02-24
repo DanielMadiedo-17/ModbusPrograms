@@ -1,0 +1,11 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP24FJ256GB110 -DL -SSA -O11111114 -fo24 -N"C:\Users\danie\Desktop\PIC_Programming\Project_1\MyProject.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"C:\Users\danie\Desktop\PIC_Programming\Project_1\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"C:\Users\danie\Desktop\PIC_Programming\Project_1\" "main.c" "hardware_setup.c" "modbus_handler.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_UART_1234_p24_p33.mcl" "__Lib_PPS_p24FJ256_GA_GB_110_DPC100B.mcl"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	hardware_setup.h
+diagnostics: 19	123	Compiled Successfully	main.c
+diagnostics: 0	122	Compilation Started	hardware_setup.h
+diagnostics: 84	123	Compiled Successfully	hardware_setup.c
+diagnostics: 0	122	Compilation Started	modbus_handler.h
+error: 25	312	Internal error 'bad declaration of [mb_coils] arrays of bit type objects is not allowed'	modbus_handler.c
+error: 0	312	Internal error 'bad declaration of [?T207] pointer to bit type is not allowed'	modbus_handler.c
+error: 0	312	Internal error 'bad declaration of [?T207] pointer to bit type is not allowed'	modbus_handler.c
+error: 0	102	Finished (with errors): 17 Feb 2026, 16:01:56	MyProject.mcpds
